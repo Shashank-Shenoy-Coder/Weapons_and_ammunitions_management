@@ -1,0 +1,46 @@
+.hero2
+{
+    width: 900px;
+    height: 1050px;
+    position: absolute;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.btn-box2
+{
+    display: flex;
+    border-bottom: 1px solid #ccc ;
+}
+.btn-box2 button{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-box2 button:hover 
+{
+    color: #ff7846;
+}
+.contents
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    position: absolute;
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+#content3
+{
+    transform: translateX(0px);
+    /* margin-right: 300px; */
+}
+#btn3
+{
+    color: #ff7856;
+}

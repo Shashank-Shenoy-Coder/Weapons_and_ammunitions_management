@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    /* font-family: poppins; */
+    text-transform: capitalize;
+    transition: .6s;
+}
+body
+{
+    background-color: #3d91ff;
+}
+.container
+{
+    width: 100%;
+    /* margin-top: 150px; */
+    position: relative;
+    margin-top: 150px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #3d91ff; */
+}
+
+.container form
+{
+    width: 35rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container form .img-container
+{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    border: .3rem solid #3d91ff;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form .img-container img
+{
+    height: 100%;
+}
+
+
+.container form h2
+{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: .05rem solid rgba(0, 0, 0, 0.2);
+}
+
+.container form .fields
+{
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.container form .field
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 0.25rem 0;
+}
+
+.container form .field label
+{
+    font-size: 0.9rem;
+    color: #555;
+    margin-left: 0.5rem;
+}
+
+.container form .field input
+{
+    width: 100%;
+    padding: 0.5rem;
+    padding-bottom: .3rem;
+    border-bottom: 0.05rem solid rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
+    text-transform: none;
+}
+
+.container form .field input:focus
+{
+    border-color: #3d91ff;
+}
+
+.container form .fields .field:nth-child(1)
+{
+    margin-right: 0.5rem;
+}
+
+.container form .field input[type="file"]
+{
+    margin: 1rem 0;
+    border: none;
+}
+
+.container form .field input[type="date"]
+{
+    padding: 0.5rem;
+    border: .05rem solid rgba(0, 0, 0, 0.2);
+}
+button
+{
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    color: #fff;
+    margin-left: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#update
+{
+    background-color: #3d91ff;
+    width: 65%;
+}
+
+#back
+{
+    margin-left: 6rem;
+    width: 34%;
+    background-color: #555;
+}
